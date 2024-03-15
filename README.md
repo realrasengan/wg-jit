@@ -2,7 +2,7 @@
 
 Inserts a BPF filter that filters for UDP packets to the WireGuard port. 
 If detected, it sends the packet to userland. Then, it filters for 
-the handshake Initiator packets and extracts the static public key of the
+the handshake Initiator packets and extracts the static public key 
 after deriving the shared key.
 
 "WireGuard" and the "WireGuard" logo are registered trademarks of Jason A. Donenfeld.
